@@ -1,0 +1,18 @@
+{
+    "name": "kpmquockhanh/handyman",
+    "autoload": {
+        "psr-4": {
+            "Kpmquockhanh\\Handyman\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "khanhluu",
+            "email": "kpmquockhanh@gmail.com"
+        }
+    ],
+    "require": {
+        "aws/aws-sdk-php": "^3.337",
+        "obregonco/backblaze-b2": "^1.1"
+    }
+}
